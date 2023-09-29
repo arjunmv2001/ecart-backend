@@ -1,0 +1,20 @@
+1. Create a new folder in the Ecart - ecart-backend
+2. Create package.json file - npm init or npm init -y
+3. Install express and some other 
+    -> npm i express - nodejs framework, and create in backend
+    -> npm i cors - used to connect two different ports (frontend-4200, backend-5000) 
+    -> npm i mongoose - This library used to connect node and mongodb
+    -> npm i dotenv - This is environment variable, that are used to store app secrets and configuration.
+4. create .gitignore file -> .gitignore
+5. create .env file -> .env
+6. create index.js (main entry point)
+
+   ------------------ mongodb Atlas configuration-----------------------
+    
+7. MVC - model view controller
+8. Add connection string to .env file
+9. Create a connection.js file for connect node and mongodb
+10. Use mongoose to connect mongodb with node application
+11. Import connection.js in index.js
+12. Create model/collection to store products - model/productSchema.js and export it
+13. To create controller folder inorder to define the logic to resolve the API request
